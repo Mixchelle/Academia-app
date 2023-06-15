@@ -71,7 +71,10 @@ function PageHome() {
                   disabled={exerciseCompleted || exerciseStatus[index]}
                 />
                 {exercicio.nome}
+              
               </label>
+  
+              <p className="serie">{exercicio.series}</p>
             </li>
           ))}
         </ul>
