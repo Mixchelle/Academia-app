@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/Academia-app/static/css/main.b213bcb7.css",
-    "main.js": "/Academia-app/static/js/main.cf3536fb.js",
+    "main.css": "/Academia-app/static/css/main.2c618f88.css",
+    "main.js": "/Academia-app/static/js/main.34f82b30.js",
     "static/js/787.a86113b9.chunk.js": "/Academia-app/static/js/787.a86113b9.chunk.js",
     "static/media/fit_1.jpg": "/Academia-app/static/media/fit_1.5dc152af7eee33228376.jpg",
     "static/media/gif.gif": "/Academia-app/static/media/gif.23e455ead8b62b792e0f.gif",
     "index.html": "/Academia-app/index.html",
-    "main.b213bcb7.css.map": "/Academia-app/static/css/main.b213bcb7.css.map",
-    "main.cf3536fb.js.map": "/Academia-app/static/js/main.cf3536fb.js.map",
+    "main.2c618f88.css.map": "/Academia-app/static/css/main.2c618f88.css.map",
+    "main.34f82b30.js.map": "/Academia-app/static/js/main.34f82b30.js.map",
     "787.a86113b9.chunk.js.map": "/Academia-app/static/js/787.a86113b9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b213bcb7.css",
-    "static/js/main.cf3536fb.js"
+    "static/css/main.2c618f88.css",
+    "static/js/main.34f82b30.js"
   ]
 }
