@@ -9,16 +9,31 @@ function PageHome() {
   const [exerciseCompleted, setExerciseCompleted] = useState(false);
   const [allExercisesCompleted, setAllExercisesCompleted] = useState(false);
   const [exerciseStatus, setExerciseStatus] = useState([]);
+  const [contador, setContador] = useState(0);
+
+  useEffect(() => {
+    const savedDayIndex = localStorage.getItem("currentDayIndex");
+    const savedContador = localStorage.getItem("contador");
+
+    if (savedDayIndex !== null && !isNaN(savedDayIndex)) {
+      setCurrentDayIndex(parseInt(savedDayIndex));
+    }
+
+    if (savedContador !== null && !isNaN(savedContador)) {
+      setContador(parseInt(savedContador));
+    }
+  }, []);
 
   useEffect(() => {
     setExerciseCompleted(false);
     setAllExercisesCompleted(false);
     setExerciseStatus(new Array(michelleTreino[currentDayIndex].exercicios.length).fill(false));
+    localStorage.setItem("currentDayIndex", currentDayIndex.toString());
   }, [currentDayIndex]);
 
-  // const handleExerciseComplete = () => {
-  //   setExerciseCompleted(true);
-  // };
+  useEffect(() => {
+    localStorage.setItem("contador", contador.toString());
+  }, [contador]);
 
   const handleNextDay = () => {
     if (currentDayIndex === michelleTreino.length - 1) {
@@ -47,6 +62,7 @@ function PageHome() {
 
     if (allCompleted) {
       setExerciseCompleted(true);
+      setContador(contador + 1);
     }
   };
 
@@ -54,7 +70,6 @@ function PageHome() {
     <div>
       <Header userName="Michelle Marquez" currentExercise={currentDay.dia} />
       <div className="container">
-       
         <h3 className="dia">{currentDay.dia}</h3>
         <img src={gif} alt='gif' className="gif"/>
         <ul className="list-group">
@@ -71,23 +86,19 @@ function PageHome() {
                   disabled={exerciseCompleted || exerciseStatus[index]}
                 />
                 {exercicio.nome}
-              
               </label>
-  
               <p className="serie">{exercicio.series}</p>
             </li>
           ))}
         </ul>
-        {allExercisesCompleted && (
-          <Button onClick={handleNextDay} variant="primary" className="mt">
+          <Button onClick={handleNextDay} variant="primary" className="mt" >
             Concluir Treino
           </Button>
-        )}
-        <footer className="footer mt-3">Contador de treinos concluídos: {currentDayIndex}</footer>
+
+        <footer className="footer mt-3">Contador de treinos concluídos: {contador}</footer>
       </div>
     </div>
   );
 }
 
 export default PageHome;
-

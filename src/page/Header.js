@@ -7,11 +7,7 @@ function Header({ userName }) {
   return (
     <header>
       <p>Bem-vinda, {userName}!</p>
-      <div className="icon">
       <FontAwesomeIcon className="icons" icon={faDumbbell} /> 
-      <h3>Bom treino</h3>
-      <FontAwesomeIcon className="icons" icon={faDumbbell} /> 
-      </div>
     </header>
   );
 }
