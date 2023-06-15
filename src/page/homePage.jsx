@@ -7,7 +7,6 @@ import gif from '../gif.gif';
 function PageHome() {
   const [currentDayIndex, setCurrentDayIndex] = useState(0);
   const [exerciseCompleted, setExerciseCompleted] = useState(false);
-  const [allExercisesCompleted, setAllExercisesCompleted] = useState(false);
   const [exerciseStatus, setExerciseStatus] = useState([]);
   const [contador, setContador] = useState(0);
 
@@ -26,7 +25,6 @@ function PageHome() {
 
   useEffect(() => {
     setExerciseCompleted(false);
-    setAllExercisesCompleted(false);
     setExerciseStatus(new Array(michelleTreino[currentDayIndex].exercicios.length).fill(false));
     localStorage.setItem("currentDayIndex", currentDayIndex.toString());
   }, [currentDayIndex]);
@@ -44,7 +42,6 @@ function PageHome() {
       setCurrentDayIndex(currentDayIndex + 1);
     }
     setExerciseCompleted(false);
-    setAllExercisesCompleted(false);
     setExerciseStatus(new Array(michelleTreino[currentDayIndex].exercicios.length).fill(false));
   };
 
@@ -56,7 +53,6 @@ function PageHome() {
     updatedExerciseStatus[index] = !updatedExerciseStatus[index];
 
     const allCompleted = updatedExerciseStatus.every((status) => status);
-    setAllExercisesCompleted(allCompleted);
 
     setExerciseStatus(updatedExerciseStatus);
 
@@ -94,8 +90,6 @@ function PageHome() {
           <Button onClick={handleNextDay} variant="primary" className="mt" >
             Concluir Treino
           </Button>
-
-        <footer className="footer mt-3">Contador de treinos concluídos: {contador}</footer>
       </div>
     </div>
   );
