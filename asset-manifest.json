@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/Academia-app/static/css/main.2c618f88.css",
-    "main.js": "/Academia-app/static/js/main.efc04b74.js",
+    "main.js": "/Academia-app/static/js/main.931a7292.js",
     "static/js/787.a86113b9.chunk.js": "/Academia-app/static/js/787.a86113b9.chunk.js",
     "static/media/fit_1.jpg": "/Academia-app/static/media/fit_1.5dc152af7eee33228376.jpg",
     "static/media/gif.gif": "/Academia-app/static/media/gif.23e455ead8b62b792e0f.gif",
     "index.html": "/Academia-app/index.html",
     "main.2c618f88.css.map": "/Academia-app/static/css/main.2c618f88.css.map",
-    "main.efc04b74.js.map": "/Academia-app/static/js/main.efc04b74.js.map",
+    "main.931a7292.js.map": "/Academia-app/static/js/main.931a7292.js.map",
     "787.a86113b9.chunk.js.map": "/Academia-app/static/js/787.a86113b9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.2c618f88.css",
-    "static/js/main.efc04b74.js"
+    "static/js/main.931a7292.js"
   ]
 }
