@@ -1,0 +1,121 @@
+/* Estilos para a página homePage */
+body {
+  background-image: url('../src/fit_1.jpg');
+  margin: 0;
+  padding: 0;
+}
+
+/* Estilos para o header */
+header {
+  background-color: #000911;
+  color: hsl(0, 0%, 100%);
+  padding: 20px;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 24px;
+  margin: 0;
+}
+
+header p {
+  font-size: 16px;
+  margin: 0;
+}
+
+/* Estilos para o container */
+.container {
+  background-color: rgba(0, 0, 0, 0.8);
+  color: white;
+  font-family: 'Dancing Script', cursive;
+  font-size: 20px;
+  padding: 10px;
+  min-height: 100vh; /* Faz o container ocupar a altura total da tela */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.dia{
+  margin-top: 10px;
+}
+
+.gif{
+  width: 100px;
+}
+/* Estilos para o título */
+h3 {
+  padding: 20px;
+  color: white;
+  font-family: 'Dancing Script', cursive;
+  font-size: 30px;
+  text-align: center;
+}
+
+.icon {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+}
+.list-group{
+  bottom: 70%;
+  top: auto;
+  font-size: 27px;
+}
+/* Estilos para os exercícios */
+.list-group-item {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  margin-bottom: auto;
+}
+
+.list-group-item label {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  width: 100%;
+  height: 80%;
+  margin-bottom: auto;
+}
+
+.list-group-item input[type="checkbox"] {
+  margin-right: 10px;
+}
+
+.completed {
+  text-decoration: line-through;
+}
+
+/* Estilos para o botão próximo dia */
+.btn-primary {
+  margin-top: 10px;
+}
+
+/* Estilos para o footer */
+footer {
+  background-color: #010910;
+  padding: 10px;
+  color: white;
+  left: 0;
+  bottom: 0;
+  position: fixed;
+  width: 100%;
+  text-align: center;
+}
+
+.mt {
+  background: black;
+  box-shadow: white;
+  color: aliceblue;
+  border-radius: 10%;
+  width: 50%;
+  text-align: center;
+  padding: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  bottom: 40%;
+}

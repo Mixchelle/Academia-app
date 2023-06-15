@@ -1,0 +1,164 @@
+[
+  {
+    "id": 1,
+    "dia": "Dia 1: Treino A (Força)",
+    "exercicios": [
+      {
+        "nome": "Agachamento com barra",
+        "series": "3 séries de 8-10 repetições"
+      },
+      {
+        "nome": "Supino reto com barra",
+        "series": "3 séries de 8-10 repetições"
+      },
+      {
+        "nome": "Remada curvada com barra",
+        "series": "3 séries de 8-10 repetições"
+      },
+      {
+        "nome": "Desenvolvimento militar",
+        "series": "3 séries de 8-10 repetições"
+      },
+      {
+        "nome": "Rosca direta com halteres",
+        "series": "3 séries de 8-10 repetições"
+      },
+      {
+        "nome": "Tríceps pulley",
+        "series": "3 séries de 8-10 repetições"
+      },
+      {
+        "nome": "Abdominais",
+        "series": "3 séries de 12-15 repetições"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "dia": "Dia 2: Treino B (Força)",
+    "exercicios": [
+      {
+        "nome": "Levantamento terra",
+        "series": "3 séries de 8-10 repetições"
+      },
+      {
+        "nome": "Supino inclinado com halteres",
+        "series": "3 séries de 8-10 repetições"
+      },
+      {
+        "nome": "Puxada na máquina",
+        "series": "3 séries de 8-10 repetições"
+      },
+      {
+        "nome": "Desenvolvimento com halteres",
+        "series": "3 séries de 8-10 repetições"
+      },
+      {
+        "nome": "Rosca alternada com halteres",
+        "series": "3 séries de 8-10 repetições"
+      },
+      {
+        "nome": "Tríceps francês com halteres",
+        "series": "3 séries de 8-10 repetições"
+      },
+      {
+        "nome": "Prancha",
+        "series": "3 séries de 30-60 segundos"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "dia": "Dia 3: Treino C (Força)",
+    "exercicios": [
+      {
+        "nome": "Agachamento livre",
+        "series": "3 séries de 8-10 repetições"
+      },
+      {
+        "nome": "Supino declinado com barra",
+        "series": "3 séries de 8-10 repetições"
+      },
+      {
+        "nome": "Remada cavalinho",
+        "series": "3 séries de 8-10 repetições"
+      },
+      {
+        "nome": "Elevação lateral com halteres",
+        "series": "3 séries de 8-10 repetições"
+      },
+      {
+        "nome": "Rosca martelo com halteres",
+        "series": "3 séries de 8-10 repetições"
+      },
+      {
+        "nome": "Tríceps corda no pulley",
+        "series": "3 séries de 8-10 repetições"
+      },
+      {
+        "nome": "Prancha lateral",
+        "series": "3 séries de 30-60 segundos"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "dia": "Dia 4: Pernas (Ênfase em exercícios para pernas)",
+    "exercicios": [
+      {
+        "nome": "Avanço com halteres",
+        "series": "3 séries de 10-12 repetições (cada perna)"
+      },
+      {
+        "nome": "Cadeira extensora",
+        "series": "3 séries de 10-12 repetições"
+      },
+      {
+        "nome": "Stiff",
+        "series": "3 séries de 10-12 repetições"
+      },
+      {
+        "nome": "Glúteo no cabo",
+        "series": "3 séries de 10-12 repetições"
+      },
+      {
+        "nome": "Panturrilha no leg press",
+        "series": "3 séries de 10-12 repetições"
+      },
+      {
+        "nome": "Abdominais",
+        "series": "3 séries de 12-15 repetições"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "dia": "Dia 5: Inferiores (Trabalho para glúteos e coxas)",
+    "exercicios": [
+      {
+        "nome": "Agachamento sumô",
+        "series": "3 séries de 10-12 repetições"
+      },
+      {
+        "nome": "Elevação pélvica com barra",
+        "series": "3 séries de 10-12 repetições"
+      },
+      {
+        "nome": "Cadeira abdutora",
+        "series": "3 séries de 10-12 repetições"
+      },
+      {
+        "nome": "Cadeira adutora",
+        "series": "3 séries de 10-12 repetições"
+      },
+      {
+        "nome": "Panturrilha sentada",
+        "series": "3 séries de 10-12 repetições"
+      },
+      {
+        "nome": "Prancha",
+        "series": "3 séries de 30-60 segundos"
+      }
+    ]
+  }
+]
